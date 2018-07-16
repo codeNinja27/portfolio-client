@@ -7,7 +7,7 @@ export function aboutPage(props) {
             <div className="about">
                 <h1>Hi My name is Tharaka aka Vash</h1>
             </div>
-            <Link className="portfolio" to="/">Portfolio</Link>
+            {/* <Link className="portfolio" to="/">Portfolio</Link> */}
         </div>
     );
 }
