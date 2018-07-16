@@ -7,7 +7,6 @@ export function contactPage(props) {
             <div className="contact">
                 <h1>Contact Info</h1>
             </div>
-            {/* <Link className="portfolio" to="/">Portfolio</Link> */}
         </div>
     );
 }
