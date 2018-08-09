@@ -4,20 +4,7 @@ import './main-page.css';
 
 export function mainPage(props) {
     return (
-        <div className="mainPage">
-            <div className="project bg-light">
-                <h2 className="projectTitle" >Line App</h2>
-                <div className="img img1">
-                </div>
-                <div className="projectDes">
-                  Never waste time waiting in lines again. Line App will save your valuable time. You can either ask for someone else to wait in line for you or wait in line for someone else.
-                </div>
-                <div className="techStack">
-                  React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify
-                </div>
-                <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
-                <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>
-            </div>        
+        <div className="mainPage">    
             <div className="project bg-light">
               <h2 className="projectTitle">Get Woke</h2>
               <div className="img img2">
@@ -31,6 +18,19 @@ export function mainPage(props) {
               <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
               <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>   
             </div>
+            <div className="project bg-light">
+                <h2 className="projectTitle" >Line App</h2>
+                <div className="img img1">
+                </div>
+                <div className="projectDes">
+                  Never waste time waiting in lines again. Line App will save your valuable time. You can either ask for someone else to wait in line for you or wait in line for someone else.
+                </div>
+                <div className="techStack">
+                  React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify
+                </div>
+                <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
+                <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>
+            </div>    
             <div className="project bg-light">
               <h2 className="projectTitle">Commit2Win</h2>
               <div className="img img3">
