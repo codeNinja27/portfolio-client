@@ -10,7 +10,7 @@
   color: #50a3a2;
   background-color: #524078;
   /* margin: auto; */
-  margin: 0 auto 10%;
+  margin: 0 auto 5%;
   background-color: #000;
   width: 50%;
   position: relative;
@@ -72,13 +72,23 @@
 
 .projectTitle {
   background: transparent;
-  color: #343a40;
+  /* color: #343a40; */
+  color: #5c6063;
 }
 
 .projectDes {
   text-align: left;
   margin: 1rem 0;
-  color: #212529;
+  /* color: #212529; */
+  color: #5c6063;
+  line-height: 1.5rem;
+}
+
+.techStack {
+  margin: 1.5rem 0;
+  /* color: #212529; */
+  color: #5c6063;
+  line-height: 1.5rem;
 }
 
 .btn {
@@ -105,3 +115,4 @@
   background-image: none;
   border-color: #007bff;
 }
+

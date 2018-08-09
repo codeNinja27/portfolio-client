@@ -6,8 +6,9 @@ export class FooterBar extends React.Component {
     render() {
         return (
             <div className="footer-bar">
-                <a href="https://github.com/codeNinja27" target="_blank">Github</a>
+                <a href="https://github.com/codeNinja27" target="_blank">GitHub</a>
                 <a href="https://www.linkedin.com/in/tharakawije/" target="_blank">LinkedIn</a>
+                <a href="mailto:tharakawijekularatne@gmail.com" target="_blank">Email</a>
             </div>
         );
     }

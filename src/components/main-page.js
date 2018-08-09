@@ -1,37 +1,47 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './main-page.css';
-// import images from '../images/';
 
 export function mainPage(props) {
     return (
         <div className="mainPage">
             <div className="project bg-light">
-              <h2 className="projectTitle">Get Woke</h2>
-              <div className="img img2">
-              </div>
-              <div className="projectDes">
-              simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-              </div>
-              <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
-              <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>   
-            </div>
-            <div className="project bg-light">
                 <h2 className="projectTitle" >Line App</h2>
                 <div className="img img1">
                 </div>
                 <div className="projectDes">
-                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  Never waste time waiting in lines again. Line App will save your valuable time. You can either ask for someone else to wait in line for you or wait in line for someone else.
+                </div>
+                <div className="techStack">
+                  React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify
                 </div>
                 <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
                 <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>
+            </div>        
+            <div className="project bg-light">
+              <h2 className="projectTitle">Get Woke</h2>
+              <div className="img img2">
+              </div>
+              <div className="projectDes">
+                Revisit America's unsung heroes through a deck of cards. This is stuff you won't find in history books, the forgotten struggles and unifying strength brought to America by minorities, immigrants, and their supporters.
+              </div>
+              <div className="techStack">
+                  React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify | Enzyme | Mocha | Chai
+              </div>
+              <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
+              <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>   
             </div>
             <div className="project bg-light">
               <h2 className="projectTitle">Commit2Win</h2>
               <div className="img img3">
               </div>
               <div className="projectDes">
-                simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Commit2Win is a web app created with the goal of using competition to encourage better version control usage.
+                By tracking Github contributions, it allows users to compete with each other on a day-to-day basis.
+                Users are further encouraged to compete with a challenge system that allows a user to directly compare their contributions with another.
+              </div>
+              <div className="techStack">
+                React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify | Enzyme | Mocha | Chai | React-easy-chart
               </div>
               <a className="live btn btn-outline-primary" href="https://commit2win.herokuapp.com/" target="_blank">Live App</a>
               <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/ghub-tracker-client" target="_blank">Project Repo</a>

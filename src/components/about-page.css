@@ -1,8 +1,41 @@
 .aboutContainer {
-
+  padding: 3.3%;
 }
 
 .aboutDesc {
-  color: #fff;
+  color: #5c6063;
   height: 100%;
+}
+
+.skills {
+  margin: 1em 0 2em 2em;
+}
+
+.intro {
+  margin-bottom: 3.7em;
+}
+
+/* .skillContainer p{
+  font-size: 1.2em;
+} */
+
+.skillContainer h4 {
+  font-weight:540;
+  font-size: 1.2em;
+}
+
+.intro p, .skillContainer p {
+  font-size: 1.2em;
+  font-weight: 340;
+}
+
+.intro p:hover, .skillContainer p:hover {
+  /* font-weight: 400; */
+  color: #000;
+}
+
+
+
+h2 {
+  margin-bottom: 1.5em;
 }

@@ -13,7 +13,7 @@ export class HeaderBar extends React.Component {
                 </div>
 
                 <div className="navBar">
-                  <Link className="contact" to="/contact">Contact Me</Link>
+                  {/* <Link className="contact" to="/contact">Contact Me</Link> */}
                   <Link className="about" to="/about">About Me</Link>
                   <Link className="portfolio" to="/">Portfolio</Link>
                 </div>
