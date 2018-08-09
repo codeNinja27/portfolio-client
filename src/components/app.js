@@ -5,9 +5,13 @@ import AboutPage from './about-page';
 import ContactPage from './contact-page';
 import {HeaderBar} from './header-page';
 import { FooterBar } from './footer-page';
+import './app.css';
 
+// import PropTypes from 'prop-types';
 
 export class App extends React.Component {
+
+ 
 
     render() {
         return (

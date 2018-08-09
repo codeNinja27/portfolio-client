@@ -1,0 +1,43 @@
+.header-bar {
+  padding: 10px;
+  width: 100%;
+  background: #50a3a2;
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+    
+  overflow: hidden;
+}
+
+.titleDiv  {
+  width: 50%;
+  float: left;
+  font-family: 'Courier', cursive;
+}
+
+.myName {
+  font-family: 'Courier', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: -15px;
+}
+
+.navBar {
+  width: 50%;
+  float: right;
+  font-weight: bold;
+  margin-top: 58px;
+}
+
+.portfolio, .about, .contact {
+  margin: 0 5px 0 5px;
+  float: right;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.portfolio:hover, .about:hover, .contact:hover {
+  color: #fff;
+}

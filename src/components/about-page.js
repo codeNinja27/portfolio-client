@@ -6,6 +6,7 @@ export function aboutPage(props) {
         <div className="about">
             <div className="about">
                 <h1>Hi My name is Tharaka aka Vash</h1>
+                <h2>I love to code!</h2>
             </div>
         </div>
     );
