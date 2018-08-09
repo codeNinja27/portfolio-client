@@ -41,3 +41,15 @@
 .portfolio:hover, .about:hover, .contact:hover {
   color: #fff;
 }
+
+
+/* .footer-bar a:visited {
+  color: #bdc3c7;
+}
+
+.footer-bar a.selected,
+.footer-bar a:hover,
+.footer-bar a:active {
+  color: #fdfdfd;
+} */
+
