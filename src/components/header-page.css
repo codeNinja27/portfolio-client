@@ -1,33 +1,35 @@
 .header-bar {
   padding: 10px;
   width: 100%;
-  background: #50a3a2;
+  /* background: #50a3a2;
   background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
   background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
   background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
-    
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%); */
+  color: #fff;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+  background-color: #563d7c;  
   overflow: hidden;
 }
 
 .titleDiv  {
   width: 50%;
   float: left;
-  font-family: 'Courier', cursive;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 }
 
 .myName {
-  font-family: 'Courier', cursive;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
   font-weight: bold;
-  font-size: 40px;
-  margin-bottom: -15px;
+  font-size: 2em;
+  margin: 0;
 }
 
 .navBar {
   width: 50%;
   float: right;
   font-weight: bold;
-  margin-top: 58px;
+  margin: 18px 0;
 }
 
 .portfolio, .about, .contact {
@@ -35,7 +37,7 @@
   float: right;
   font-size: 18px;
   text-decoration: none;
-  color: #000;
+  color: #cbbde2;
 }
 
 .portfolio:hover, .about:hover, .contact:hover {

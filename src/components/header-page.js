@@ -8,8 +8,8 @@ export class HeaderBar extends React.Component {
         return (
             <div className="header-bar">
                 <div className="titleDiv">
-                  <h1 className="myName">Tharaka Wijekularatne</h1>
-                  <h2>Full Stack Web Developer</h2>
+                  <h4 className="myName">Tharaka Wijekularatne</h4>
+                  <small>Full Stack Web Developer</small>
                 </div>
 
                 <div className="navBar">
