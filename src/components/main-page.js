@@ -15,8 +15,8 @@ export function mainPage(props) {
               <div className="techStack">
                   React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify | Enzyme | Mocha | Chai
               </div>
-              <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
-              <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>   
+              <a className="live btn btn-outline-primary" href="https://shielded-inlet-36595.herokuapp.com/" target="_blank">Live App</a>
+              <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tammy-tharaka-sp" target="_blank">Project Repo</a>   
             </div>
             <div className="project bg-light">
                 <h2 className="projectTitle" >Line App</h2>
