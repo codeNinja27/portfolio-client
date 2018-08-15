@@ -15,7 +15,10 @@ export class Projects extends React.Component {
 
   render() {
     if(this.props.projects){
-      console.log(this.props.projects.projects)
+      // console.log(this.props.projects.projects)
+      // let projectList = this.props.projects.projects.map(project => {
+        
+      // })
     }
     
     return (
@@ -30,8 +33,8 @@ export class Projects extends React.Component {
         <div className="techStack">
             React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify | Enzyme | Mocha | Chai
         </div>
-        <a className="live btn btn-outline-primary" href="https://shielded-inlet-36595.herokuapp.com/" target="_blank">Live App</a>
-        <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tammy-tharaka-sp" target="_blank">Project Repo</a>   
+        <a className="live btn btn-outline-primary" href="https://shielded-inlet-36595.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live App</a>
+        <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tammy-tharaka-sp" target="_blank" rel="noopener noreferrer">Project Repo</a>   
       </div>
       <div className="project bg-light">
           <h2 className="projectTitle" >Line App</h2>
@@ -43,8 +46,8 @@ export class Projects extends React.Component {
           <div className="techStack">
             React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify
           </div>
-          <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank">Live App</a>
-          <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank">Project Repo</a>
+          <a className="live btn btn-outline-primary" href="https://jolly-torvalds-3b5e5e.netlify.com/" target="_blank" rel="noopener noreferrer">Live App</a>
+          <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/tharaka-line-app-client" target="_blank" rel="noopener noreferrer">Project Repo</a>
       </div>    
       <div className="project bg-light">
         <h2 className="projectTitle">Commit2Win</h2>
@@ -58,8 +61,8 @@ export class Projects extends React.Component {
         <div className="techStack">
           React | Redux | Javascript | Node | Express | Passport | JWT | HTML5 | CSS3 | mLab | Heroku   Netlify | Enzyme | Mocha | Chai | React-easy-chart
         </div>
-        <a className="live btn btn-outline-primary" href="https://commit2win.herokuapp.com/" target="_blank">Live App</a>
-        <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/ghub-tracker-client" target="_blank">Project Repo</a>
+        <a className="live btn btn-outline-primary" href="https://commit2win.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live App</a>
+        <a className="repo btn btn-outline-primary" href="https://github.com/thinkful-ei20/ghub-tracker-client" target="_blank" rel="noopener noreferrer">Project Repo</a>
       </div>
   </div>
     );
