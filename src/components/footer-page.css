@@ -21,3 +21,10 @@
   background-color: #f7f7f7;
   color: #524078;
 }
+
+
+@media (max-width: 610px) {
+  .footer-bar a {
+    font-size: 0.8em;
+  }
+}

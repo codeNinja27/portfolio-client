@@ -4,6 +4,7 @@
   padding: 5%;
   height: 100%;
   position: relative;
+  margin-bottom: 100px;;
 }
 
 .project {
@@ -21,6 +22,7 @@
   background-color: #f8f9fa!important;
   border: 1px solid #dee2e6!important;
   padding: 0 2rem 3rem;
+  overflow: hidden;
 }
 
 .img {
@@ -116,3 +118,31 @@
   border-color: #007bff;
 }
 
+
+@media (max-width: 610px) { 
+
+  .live, .repo {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 0.8em;
+    float: none;
+    display: block;
+  }
+
+  .projectTitle {
+    font-size: 1em;
+  }
+
+  .projectDes, .techStack {
+    font-size: 0.8em;
+  }
+
+  .img {
+    height: 180px;
+  }
+
+  .bg-light {
+    padding: 0 1rem 2rem;
+  }
+
+}
