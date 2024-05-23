@@ -8,23 +8,23 @@ export function aboutPage(props) {
             <div className="aboutDesc">
                 <div className="intro bg-light">
                   <h2>INTRO</h2>
-                  <p>Hi, my name is Tharaka. I'm a Full-Stack-Developer based in Las Vegas. I'm passionate about coding and love to struggle my way to solutions.</p>
-                  <p>When I'm not coding, I love to play basketball,  play games, drive around, read and go hiking.</p>
+                  <p>Hi, my name is Tharaka. I'm a recent Computer Science graduate, eager to find opportunities to put my skills to use. I am passionate about coding and enjoy the challenge of solving complex problems. I am committed to continuous learning and improvement, and I aspire to look back and be proud of the progress I have made. .</p>
+                  <p>When I'm not coding, I love to play basketball, explore new places, hike, play board games, and enjoy boba.</p>
                 </div>
                 
                 <div className="skillContainer bg-light">
-                  <h2>WHAT I DO</h2>
+                  <h2>SKILLS</h2>
                   <div>
                     <h4>Front End</h4>
-                    <p className="skills">Javascript | ES6 | jQuery | React | Redux | HTML5 | CSS3</p>
+                    <p className="skills">C++ | Python | Javascript | jQuery | React | HTML | CSS</p>
                   </div>
                   <div>
                     <h4>Back End</h4>
-                    <p className="skills">MongoDB | PostgreSQL | node.JS | Python | Express | RESTful API's</p>
+                    <p className="skills">MongoDB | PostgreSQL | node.JS </p>
                   </div>
                     <h4>Deployment and Testing</h4>
                   <div>
-                    <p className="skills">Mocha & Chai | Travis CI | Postman | Heroku | Netlify | Git |  GitHub</p>
+                    <p className="skills">Mocha & Chai | Travis CI | Postman | Git |  GitHub</p>
                   </div>
                 </div>
             </div>

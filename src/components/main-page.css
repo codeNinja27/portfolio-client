@@ -1,6 +1,7 @@
 .mainPage {
   text-align: center;
-  /* background-color: red; */
+  background-color: #FAF9F6;
+  /*background: url('../images/background.jpg') no-repeat ; */
   padding: 5%;
   height: 100%;
   position: relative;
@@ -35,15 +36,15 @@
 }
 
 .img1 {
-  background: url('../images/line.png') no-repeat ; 
+  background: url('../images/calculator.jpeg') no-repeat 50%; 
 }
 
 .img2 {
-  background: url('../images/getwoke.png') no-repeat 50%; 
+  background: url('../images/background.jpg') no-repeat 50%; 
 }
 
 .img3 {
-  background: url('../images/commit.png') no-repeat 50%; 
+  background: url('../images/ramen.jpeg') no-repeat 50%; 
 }
 
 .live {
