@@ -35,11 +35,11 @@ export function mainPage(props) {
             </div>
 
             <div className="project bg-light">
-              <h2 className="projectTitle">Comming Soon</h2>
+              <h2 className="projectTitle">Discord Bot</h2>
               <div className="img img2">
               </div>
               <div className="projectDes">
-                Comming soon
+                A discord bot that inspire, give you inspiring qoutes from an api, and play music for you
               </div>
               <div className="techStack">
                   Python | HTML | CSS
