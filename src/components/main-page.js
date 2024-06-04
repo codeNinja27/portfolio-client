@@ -39,10 +39,10 @@ export function mainPage(props) {
               <div className="img img2">
               </div>
               <div className="projectDes">
-                A discord bot that inspire, give you inspiring qoutes from an api, and play music for you
+                A muslti-purpose discord bot that inspire, give you inspiring qoutes from an api, and play music for you!
               </div>
               <div className="techStack">
-                  Python | HTML | CSS
+                  Python | HTML | CSS | PostgreSQL | API
               </div>
               <a className="live btn btn-outline-primary" href="" target="_blank" rel="noopener noreferrer">Live App</a>
               <a className="repo btn btn-outline-primary" href="" target="_blank" rel="noopener noreferrer">Project Repo</a>   
