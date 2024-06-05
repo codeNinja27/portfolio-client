@@ -5,20 +5,6 @@ import './main-page.css';
 export function mainPage(props) {
     return (
         <div className="mainPage">    
-
-            <div className="project bg-light">
-              <h2 className="projectTitle" >Calculator Interface</h2>
-              <div className="img img1">
-              </div>
-              <div className="projectDes">
-                Comming Soon
-              </div>
-              <div className="techStack">
-                C++ | HTML | CSS 
-              </div>
-              <a className="live btn btn-outline-primary" href="" target="_blank" rel="noopener noreferrer">Live App</a>
-              <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/calculator" target="_blank" rel="noopener noreferrer">Project Repo</a>
-            </div>  
   
             <div className="project bg-light">
               <h2 className="projectTitle">Odin Recipes</h2>
@@ -42,11 +28,25 @@ export function mainPage(props) {
                 A muslti-purpose discord bot that inspire, give you inspiring qoutes from an api, and play music for you!
               </div>
               <div className="techStack">
-                  Python | HTML | CSS | PostgreSQL | API
+                  Python | PostgreSQL | API
               </div>
               <a className="live btn btn-outline-primary" href="" target="_blank" rel="noopener noreferrer">Live App</a>
-              <a className="repo btn btn-outline-primary" href="" target="_blank" rel="noopener noreferrer">Project Repo</a>   
+              <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/DiscordBot" target="_blank" rel="noopener noreferrer">Project Repo</a>   
             </div>
+
+            <div className="project bg-light">
+              <h2 className="projectTitle" >Calculator Interface</h2>
+              <div className="img img1">
+              </div>
+              <div className="projectDes">
+                Comming Soon
+              </div>
+              <div className="techStack">
+                C++ | HTML | CSS 
+              </div>
+              <a className="live btn btn-outline-primary" href="" target="_blank" rel="noopener noreferrer">Live App</a>
+              <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/calculator" target="_blank" rel="noopener noreferrer">Project Repo</a>
+            </div>  
 
         </div>
     );

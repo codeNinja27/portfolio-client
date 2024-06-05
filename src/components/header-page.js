@@ -9,7 +9,7 @@ export class HeaderBar extends React.Component {
             <div className="header-bar">
                 <div className="titleDiv">
                   <h4 className="myName">Tharaka Wijekularatne</h4>
-                  <small className="devTitle">Full Stack Web Developer</small>
+                  <small className="devTitle">Full Stack Software Engineer</small>
                 </div>
 
                 <div className="navBar">

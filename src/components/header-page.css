@@ -6,7 +6,7 @@
   width: 100%;
   color: #fff;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
-  background-color: #563d7c;  
+  background-color: #20201E;  
   overflow: hidden;
 }
 
@@ -14,6 +14,7 @@
   width: 50%;
   float: left;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+  color: purple;
 }
 
 .myName {
@@ -22,6 +23,7 @@
   font-size: 2em;
   margin: 0;
   font-family: 'Merriweather';
+  color: purple;
 }
 
 .navBar {
@@ -36,7 +38,8 @@
   float: right;
   font-size: 18px;
   text-decoration: none;
-  color: #cbbde2;
+  /* color: #cbbde2; */
+  color: purple;
 }
 
 .portfolio:hover, .about:hover, .contact:hover {
@@ -45,7 +48,7 @@
 
 
 .nav-bar a:visited {
-  color: #563d7c;
+  color: #8f7daa;
 }
 
 .nav-bar a.selected,
