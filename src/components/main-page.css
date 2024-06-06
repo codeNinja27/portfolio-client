@@ -41,14 +41,14 @@
 }
 
 .img2 {
-  background: url('../images/discordBot.jpeg') no-repeat 50%; 
+  background: url('../images/discord2.jpeg') no-repeat 50%; 
 }
 
 .img3 {
   background: url('../images/ramen.jpeg') no-repeat 50%; 
 }
 
-.live {
+.live, .live2 {
   float: left;
   clear: both;
   /* position: absolute;
@@ -56,14 +56,14 @@
   left: 1%; */
 }
 
-.repo {
+.repo, .repo2 {
   float: right;
   /* position: absolute;
   bottom: -17%;
   right: 1%; */
 }
 
-.live, .repo {
+.live, .live2, .repo, .repo2 {
   text-decoration: none;
   color: #b168c7;
   font-weight: bold;
@@ -73,6 +73,11 @@
   background-color: #b168c7;
   color: #fff;
 }
+
+.live2:hover, .repo2:hover {
+    background-color:rgba(100,100,100,0); 
+    opacity:0;
+  }
 
 .projectTitle {
   background: transparent;
