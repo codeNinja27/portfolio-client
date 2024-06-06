@@ -28,7 +28,7 @@ export function mainPage(props) {
                 I made Odin Recipes only using HTML and CSS as a fun little project to brush up on my CSS and HTNL. I had more fun than I thought I would and suprosingly learned new things along the way!
               </div>
               <div className="techStack">
-                HTML | CSS | Git
+                HTML | CSS
               </div>
               <a className="live btn btn-outline-primary" href="https://codeninja27.github.io/odin-recipes/index.html" target="_blank" rel="noopener noreferrer">Live App</a>
               <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/odin-recipes" target="_blank" rel="noopener noreferrer">Project Repo</a>
