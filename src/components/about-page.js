@@ -9,8 +9,9 @@ export function aboutPage(props) {
             <div className="aboutDesc">
                 <div className="intro bg-light">
                   <h2>INTRO</h2>
-                  <p>Hello, my name is Tharaka. I am a recent Computer Science graduate from UNLV, enthusiastic about finding opportunities to apply my skills and knowledge. Coding is my passion, and I thrive on the challenge of solving complex problems. I am dedicated to continuous learning and self-improvement, with the aspiration of looking back on my journey with pride in my accomplishments.</p>
-                  <p>Outside of coding, I enjoy playing basketball, exploring new places, hiking, playing board games, and discovering new food spots around the town.</p>
+                  <p>Hello, my name is Tharaka. I hold a Bachelor’s degree in Computer Science from UNLV, and I am passionate about leveraging my skills and knowledge in real-world applications. Coding is more than just a profession for me; it’s a passion that fuels my enthusiasm for tackling complex problems and developing innovative solutions.I am committed to continuous learning and self-improvement, constantly striving to enhance my abilities and knowledge. My goal is to look back on my journey with a sense of pride in my accomplishments and the progress I’ve made.</p>
+                  <p>Beyond coding, I enjoy a variety of activities. I love playing basketball, exploring new places, hiking, engaging in board games, and discovering exciting new food spots around town. These interests help me maintain a well-rounded lifestyle and inspire my creativity and problem-solving skills.</p>
+                  <p>I am eager to find opportunities where I can contribute meaningfully and grow both personally and professionally.</p>
                 </div>
                 
                 <div className="skillContainer bg-light">

@@ -7,11 +7,11 @@ export function mainPage(props) {
         <div className="mainPage">    
 
             <div className="project bg-light">
-              <h2 className="projectTitle">Discord Bot</h2>
+              <h2 className="projectTitle">Encourage Bot</h2>
               <div className="img img2">
               </div>
               <div className="projectDes">
-                A multi-purpose discord bot that inspire, give you inspiring qoutes from an api, and play music for you!
+                A multi-purpose discord bot that inspires, gives you inspiring quotes from an API, and plays music for you!
               </div>
               <div className="techStack">
                   Python | PostgreSQL | API
@@ -25,7 +25,7 @@ export function mainPage(props) {
               <div className="img img3">
               </div>
               <div className="projectDes">
-                I made Odin Recipes only using HTML and CSS as a fun little project to brush up on my CSS and HTNL. I had more fun than I thought I would and suprosingly learned new things along the way!
+                I made Odin Recipes only using HTML and CSS as a fun little project to brush up on my CSS and HTML. I had more fun than I thought I would and suprisingly learned new things along the way!
               </div>
               <div className="techStack">
                 HTML | CSS
@@ -35,7 +35,7 @@ export function mainPage(props) {
             </div>
 
             <div className="project bg-light">
-              <h2 className="projectTitle" >Calculator Interface</h2>
+              <h2 className="projectTitle" >Coming Soon</h2>
               <div className="img img1">
               </div>
               <div className="projectDes">

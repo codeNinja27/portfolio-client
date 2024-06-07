@@ -38,7 +38,7 @@
 }
 
 .img1 {
-  background: url('../images/calculator.jpeg') no-repeat 50%; 
+  background: url('../images/background.jpg') no-repeat 50%; 
 }
 
 .img2 {
@@ -88,7 +88,7 @@
 }
 
 .projectDes {
-  text-align: left;
+  text-align: center;
   margin: 1rem 0;
   /* color: #212529; */
   color: #5c6063;
@@ -144,11 +144,11 @@
   }
 
   .projectTitle {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .projectDes, .techStack {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .img {
