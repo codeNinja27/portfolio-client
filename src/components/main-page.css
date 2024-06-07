@@ -24,7 +24,8 @@
   border: 1px solid #c244e8!important;
   padding: 0 2rem 3rem;
   overflow: hidden;
-  box-shadow: 0 0 40px 10px #c244e8;
+  /* box-shadow: 0 0 40px 10px #c244e8; */
+  box-shadow: 0 0 7px 2px #c244e8;
 }
 
 .img {
@@ -82,7 +83,8 @@
 .projectTitle {
   background: transparent;
   /* color: #343a40; */
-  color: #5c6063;
+  /* color: #5c6063; */
+  color: white;
 }
 
 .projectDes {
@@ -126,6 +128,11 @@
 }
 
 
+  .projectDes, .techStack {
+    font-size: 1.2em;
+    color: white;
+  }
+
 @media (max-width: 610px) { 
 
   .live, .repo {
@@ -137,11 +144,11 @@
   }
 
   .projectTitle {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .projectDes, .techStack {
-    font-size: 0.8em;
+    font-size: 1.5em;
   }
 
   .img {

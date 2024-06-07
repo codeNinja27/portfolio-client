@@ -11,7 +11,7 @@ export function mainPage(props) {
               <div className="img img2">
               </div>
               <div className="projectDes">
-                A muslti-purpose discord bot that inspire, give you inspiring qoutes from an api, and play music for you!
+                A multi-purpose discord bot that inspire, give you inspiring qoutes from an api, and play music for you!
               </div>
               <div className="techStack">
                   Python | PostgreSQL | API
