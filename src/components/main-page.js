@@ -42,7 +42,7 @@ export function mainPage(props) {
                 C++  
               </div>
               <a className="live2 btn btn-outline-primary" href="#" rel="noopener noreferrer">Live App</a>
-              <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/calculator" target="_blank" rel="noopener noreferrer">Project Repo</a>
+              <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/MightyKnight" target="_blank" rel="noopener noreferrer">Project Repo</a>
             </div>  
 
         </div>
