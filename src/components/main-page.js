@@ -33,13 +33,13 @@ export function mainPage(props) {
             </div>
 
             <div className="project bg-light">
-              <h2 className="projectTitle" >Coming Soon</h2>
+              <h2 className="projectTitle" >Mighty Kinght</h2>
               <div className="img img1"></div>
               <div className="projectDes">
-                Comming Soon
+                Lots of people say knight is their favorite piece on a chess board. But most of the time it won't be able to move to all the places it can go in a chess board. In this C++ program, the knight gets to horse around as much as it wants and move to all the places it can throughout the chessboard using a recursion function!
               </div>
               <div className="techStack">
-                C++ | HTML | CSS 
+                C++  
               </div>
               <a className="live2 btn btn-outline-primary" href="#" rel="noopener noreferrer">Live App</a>
               <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/calculator" target="_blank" rel="noopener noreferrer">Project Repo</a>

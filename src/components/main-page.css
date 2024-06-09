@@ -43,7 +43,7 @@
   }
   
   .img1 {
-    background: url('../images/background.jpg') no-repeat 50%; 
+    background: url('../images/knightchess.jpeg') no-repeat 50%; 
   }
   
   .img2 {
@@ -68,13 +68,18 @@
     color: #b168c7;
     font-weight: bold;
   }
+
+  .live2, .repo2 {
+    pointer-events: none;
+  }
   
   .live:hover, .repo:hover {
     background-color: #b168c7;
     color: #fff;
   }
   
-  .live2:hover, .repo2:hover {
+  /*Not being activated because pointer events none*/
+  .live2:hover, .repo2:hover { 
     background-color:rgba(100,100,100,0); 
     opacity:0;
   }
