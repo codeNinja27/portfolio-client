@@ -1,11 +1,10 @@
 import React from 'react';
-// import {Link} from 'react-router-dom';
 import './about-page.css';
 
 export function aboutPage(props) {
     return (
         <div className="aboutContainer">
-            <div className='porfilePic'></div>
+            <div className='profilePic'></div>
             <div className="aboutDesc">
                 <div className="intro bg-light">
                   <h2>INTRO</h2>
@@ -29,6 +28,7 @@ export function aboutPage(props) {
                     <p className="skills">Mocha & Chai | Travis CI | Postman | Git |  GitHub</p>
                   </div>
                 </div>
+                <a href="../textfiles/resume.pdf" className="downloadResumeButton" download>Download Resume</a>
             </div>
         </div>
     );

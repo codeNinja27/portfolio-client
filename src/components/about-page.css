@@ -1,11 +1,17 @@
 .aboutContainer {
   padding: 2%;
   height: auto;
+  background-color: #20201E;
+  margin-bottom: 5%;
 }
 
 .aboutDesc {
   color: #c5ccd2;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2.4rem;
 }
 
 .skillContainer h4 {
@@ -14,12 +20,11 @@
 
 .skillContainer, .intro {
   border-radius: 15px;
-  margin: 1em 0 1em 1em;
+  margin: 5em;
+  padding: 3em;
+  width: 75%;
 }
 
-.intro, .skillContainer {
-    margin: 5em;
-}
 
 .intro p, .skillContainer p {
   font-size: 1.2em;
@@ -31,18 +36,50 @@
 
 
 h2, h4 {
-  /* margin-bottom: 1.5em; */
   color: rgb(255, 255, 255);
 }
 
-.porfilePic {
+.profilePic {
     background: url('../images/porfilePic.jpg') no-repeat center center; 
     background-size: cover;
     width: 250px; 
     height: 250px; 
     border-radius: 50%; 
     margin: 0 auto; 
-    /* box-shadow: 0 0 15px 15px #aa6aaa; */
     box-shadow: 0 0 3px 1px #c244e8;
+    transition: box-shadow 0.55s ease;
+    transition: transform 0.55s ease-out, opacity 0.5s ease-out;
 }
 
+.profilePic:hover {
+    transform: scale(0.9) rotate(360deg);
+    box-shadow: 0 0 10px 5px #c244e8;
+}
+
+
+.downloadResumeButton {
+    display: inline-block;
+    margin-bottom: 2%;
+    padding: 5px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #20201E;
+    border: solid;
+    border-radius: 5px;
+    border-color: #c244e8;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    transition: transform 0.55s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .downloadResumeButton:hover {
+    background-color: #b168c7;
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 610px) { 
+    .aboutContainer {
+        margin-bottom: 18%;
+    }
+  }

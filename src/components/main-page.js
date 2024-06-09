@@ -8,10 +8,9 @@ export function mainPage(props) {
 
             <div className="project bg-light">
               <h2 className="projectTitle">Encourage Bot</h2>
-              <div className="img img2">
-              </div>
+              <div className="img img2"></div>
               <div className="projectDes">
-                A multi-purpose discord bot that inspires, gives you inspiring quotes from an API, and plays music for you!
+                A multi-purpose discord bot that gives you inspiring quotes from an API, gives you random anime characters, and plays music for you! Bonus functions that notice sad words from a list and gives the user cheerful responses from a list of user entered phrases that stored in a database. You need this bot in your life!
               </div>
               <div className="techStack">
                   Python | PostgreSQL | API
@@ -22,8 +21,7 @@ export function mainPage(props) {
 
             <div className="project bg-light">
               <h2 className="projectTitle">Odin Recipes</h2>
-              <div className="img img3">
-              </div>
+              <div className="img img3"></div>
               <div className="projectDes">
                 I made Odin Recipes only using HTML and CSS as a fun little project to brush up on my CSS and HTML. I had more fun than I thought I would and suprisingly learned new things along the way!
               </div>
@@ -36,8 +34,7 @@ export function mainPage(props) {
 
             <div className="project bg-light">
               <h2 className="projectTitle" >Coming Soon</h2>
-              <div className="img img1">
-              </div>
+              <div className="img img1"></div>
               <div className="projectDes">
                 Comming Soon
               </div>
