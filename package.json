@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "firebase": "^10.12.2",
     "nodemon": "^3.1.2",
     "prop-types": "^15.8.1",
     "react": "^16.14.0",
