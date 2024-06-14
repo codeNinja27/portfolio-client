@@ -45,6 +45,19 @@ export function mainPage(props) {
               <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/MightyKnight" target="_blank" rel="noopener noreferrer">Project Repo</a>
             </div>  
 
+            <div className="project bg-light">
+              <h2 className="projectTitle" >Web Scraper</h2>
+              <div className="img img4"></div>
+              <div className="projectDes">
+                A program that search through google jobs and give me jobs that related to software engineering.
+              </div>
+              <div className="techStack">
+                Python | BeautifulSoup  
+              </div>
+              <a className="live2 btn btn-outline-primary" href="#" rel="noopener noreferrer">Live App</a>
+              <a className="repo btn btn-outline-primary" href="https://github.com/codeNinja27/scraper" target="_blank" rel="noopener noreferrer">Project Repo</a>
+            </div>  
+
         </div>
     );
 }

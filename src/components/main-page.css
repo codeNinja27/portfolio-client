@@ -53,6 +53,10 @@
   .img3 {
     background: url('../images/ramen.jpeg') no-repeat 50%; 
   }
+
+  .img4 {
+    background: url('../images/scraper.jpeg') no-repeat 50%; 
+  }
   
   .live, .live2 {
     float: left;
