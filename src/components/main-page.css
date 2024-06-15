@@ -22,7 +22,7 @@
     border: 1px solid #c244e8!important;
     padding: 0 2rem 3rem;
     overflow: hidden;
-    box-shadow: 0 0 7px 2px #c244e8;
+    box-shadow: 0 0 5px 1px #c244e8;
     transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
   }
   
@@ -159,6 +159,10 @@
     
     .mainPage {
         margin-bottom: 15%;
+    }
+
+    .mainPage {
+        background-color: #FAF9F6;
     }
   }
   

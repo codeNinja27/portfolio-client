@@ -85,6 +85,7 @@ h2, h4 {
   @media (max-width: 610px) { 
     .aboutContainer {
         margin-bottom: 18%;
+        background-color: #20201E;
     }
   }
 
