@@ -49,7 +49,7 @@ export function mainPage(props) {
               <h2 className="projectTitle" >Web Scraper</h2>
               <div className="img img4"></div>
               <div className="projectDes">
-                A program that search through google jobs and give me jobs that related to software engineering.
+                A program that search through google jobs and give me jobs that related to software engineering. In Progress...
               </div>
               <div className="techStack">
                 Python | BeautifulSoup  
