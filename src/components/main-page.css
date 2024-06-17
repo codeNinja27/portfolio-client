@@ -31,7 +31,7 @@
   
 .bg-light:hover .img {
     transform: scale(0.95);
-    opacity: 0.9;
+    opacity: 0.8;
 }
   
 .bg-light:hover {
@@ -159,7 +159,7 @@
     }
 
     .mainPage {
-        background-color: #20201E;
+        background-color: #171717;
     }
     
     .project {
