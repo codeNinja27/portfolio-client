@@ -28,7 +28,7 @@ export function aboutPage(props) {
                     <p className="skills">Mocha & Chai | Travis CI | Postman | Git |  GitHub</p>
                   </div>
                 </div>
-                <a href="../textfiles/resume.pdf" className="downloadResumeButton" download>Download Resume</a>
+                <a href="/resume.pdf" className="downloadResumeButton" download>Download Resume</a>
             </div>
         </div>
     );

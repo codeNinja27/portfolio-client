@@ -6,11 +6,13 @@
   width: 100%;
   color: #fff;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
-  background-color: #171717;  
+  background-color: hsl(0, 0%, 9%);  
   overflow: hidden;
+  display: flex; 
+  /* alignItems: center; */
 }
 
-.titleDiv  {
+.titleDiv {
   width: 50%;
   float: left;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
@@ -59,16 +61,17 @@
 
 
 @media (max-width: 610px) { 
-  .myName {
-    font-size: 1.2em;
-  }
-  .portfolio, .about, .contact {
-    font-size: 0.7em;
-    margin: 0 2px 0 2px;
-  }
+    .myName {
+        font-size: 1.2em;
+    }
+    .portfolio, .about, .contact {
+        font-size: 0.7em;
+        margin: 0 2px 0 2px;
+    }
 
-  .devTitle{
-    font-size: 0.5em;
-  }
+    .devTitle{
+        font-size: 0.5em;
+    }
+
 
 }
