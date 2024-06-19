@@ -12,7 +12,7 @@ export class HeaderBar extends React.Component {
                 <img src={profileImage} alt="Profile" style={{ width: '60px', height: '60px', marginRight: '10px' }} />
                 <div className="titleDiv">
                     <h4 className="myName">Tharaka Wijekularatne</h4>
-                    <small className="devTitle">Full Stack Software Engineer</small>
+                    <small className="devTitle">Software Engineer</small>
                 </div>
                 
 

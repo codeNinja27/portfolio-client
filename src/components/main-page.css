@@ -15,10 +15,11 @@
 }
   
 .bg-light {
-    border: 1px solid #c244e8!important;
+    /* border: 1px solid #c244e8!important; */
+    border: 1px solid #DF8BE0!important;
     padding: 0 2rem 3rem;
     overflow: hidden;
-    box-shadow: 0 0 5px 1px #c244e8;
+    box-shadow: 0 0 5px 1px #DF8BE0;
     transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
 }
   
@@ -65,7 +66,7 @@
   
 .live, .live2, .repo, .repo2 {
     text-decoration: none;
-    color: #b168c7;
+    color: rgb(223, 139, 223);
     font-weight: bold;
 }
 
@@ -74,7 +75,7 @@
 }
   
 .live:hover, .repo:hover {
-    background-color: #b168c7;
+    background-color:rgb(223, 139, 223);
     color: #fff;
 }
   
@@ -118,9 +119,9 @@
 }
   
 .btn-outline-primary {
-    color: #b168c7;
+    color: rgb(223, 139, 223);
     background-color: transparent;
-    border-color: #b168c7;
+    border-color: rgb(223, 139, 223);
 }
   
 .projectDes, .techStack {
@@ -151,7 +152,7 @@
   
     .bg-light {
         padding: 0 1rem 2rem;
-        box-shadow: 0 0 1px 1px #c244e8;
+        box-shadow: 0 0 1px 1px #DF8BE0;
     }
     
     .mainPage {
