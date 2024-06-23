@@ -38,34 +38,66 @@
     margin-left: 5%;
 }
 
-@media (max-width: 610px) {
-    .footer-bar a {
-        font-size: 0.8em;
-    }
+@media (max-width: 2500px) {
     .footer-bar a img {
-        max-width:100%;
-        max-height:90%;
+        max-width: 220%;
+        max-height: 220%;
         background-color: white;
         border-radius: 20%; 
     }
+}
+
+@media (max-width: 2000px) {
+    .footer-bar a img {
+        max-width: 220%;
+        max-height: 220%;
+        background-color: white;
+        border-radius: 20%; 
+    }
+    .footer-bar {
+        padding: 2.5%;
+    }
     .gitHubDiv {
         margin-right: 10%;
+        /* margin-top: 2%; */
     }
     
     .emailDiv {
         margin-left: 10%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .footer-bar a img {
+        max-width: 120%;
+        max-height: 120%;
+        background-color: white;
+        border-radius: 20%; 
     }
 }
 
 @media (max-width: 1600px) {
     .footer-bar a img {
-        max-width:100%;
-        max-height:90%;
+        max-width: 120%;
+        max-height: 120%;
         background-color: white;
         border-radius: 20%; 
     }
+}
+
+@media (max-width: 1450px) {
+    .footer-bar a img {
+        max-width: 80%;
+        max-height: 80%;
+        background-color: white;
+        border-radius: 20%; 
+    }
+    .footer-bar {
+        padding: 1%;
+    }
     .gitHubDiv {
         margin-right: 10%;
+        margin-top: 2%;
     }
     
     .emailDiv {
@@ -73,29 +105,14 @@
     }
 }
 
-@media (max-width: 1450px) {
-    .footer-bar a img {
-        max-width:100%;
-        max-height:70%;
-        background-color: white;
-        border-radius: 20%; 
-    }
-    .gitHubDiv {
-        margin-right: 10%;
-    }
-    
-    .emailDiv {
-        margin-left: 10%;
-    }
-}
 
 @media (max-width: 1000px) {
     .footer-bar {
         padding: 4%;
     }
     .footer-bar a img {
-        max-width:100%;
-        max-height:40%;
+        max-width: 80%;
+        max-height: 80%;
         background-color: white;
         border-radius: 20%; 
     }
@@ -109,10 +126,29 @@
     }
 }
 
-@media (max-width: 700) {
+@media (max-width: 610px) {
+    .footer-bar a {
+        font-size: 0.8em;
+    }
     .footer-bar a img {
-        max-width:100%;
-        max-height:10%;
+        max-width: 60%;
+        max-height: 60%;
+        background-color: white;
+        border-radius: 20%; 
+    }
+    .gitHubDiv {
+        margin-right: 10%;
+    }
+    
+    .emailDiv {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-bar a img {
+        max-width: 50%;
+        max-height: 50%;
         background-color: white;
         border-radius: 20%; 
     }
